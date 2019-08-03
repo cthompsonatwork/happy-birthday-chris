@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/birdcouple"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/topLine"
+        />
+
+    <TextView
+        android:id="@+id/topLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#64DD17"
+        android:textSize="38sp"
+        android:text="Happy Birthday to YOU!"
+         />
+
+    <TextView
+        android:id="@+id/blueSky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/goFishing"
+        android:textColor="#64DD17"
+        android:textSize="20sp"
+        android:text="The sky is blue..."
+        />
+
+    <TextView
+        android:id="@+id/goFishing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/justMeAndYou"
+        android:textColor="#64DD17"
+        android:textSize="20sp"
+        android:text="So why not go fishing?"
+        />
+
+    <TextView
+        android:id="@+id/justMeAndYou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lvayout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#D7CCC8"
+        android:textSize="35sp"
+        android:text="Just me and you."
+        />
+
+</RelativeLayout>
